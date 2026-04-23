@@ -33,6 +33,9 @@ When the user says "create an AI call about..." or "generate an AI call for...":
 
 ## Notes
 - [Any instructions for the AI conducting the call, e.g. "deep dive on question 2", "keep it under 10 minutes", "follow up on technical details"]
+
+---
+*To run this AI call, install the [AI Call skill](https://github.com/nicola/ai-call) if you haven't already.*
 ```
 
 ### Guidelines for creating calls
