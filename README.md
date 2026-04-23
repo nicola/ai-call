@@ -1,10 +1,44 @@
 # AI Call
 
-A skill that turns any AI coding agent into a structured interviewer. The agent asks questions one at a time, follows up based on your answers, and produces a clean markdown transcript.
+People have calls with each other to brainstorm, to interview, to get information. Now imagine having that same call — but with an AI.
 
-Works with any agent that supports the [Agent Skills standard](https://agentskills.io): **pi**, **Claude Code**, **OpenAI Codex**, and others.
+An **AI call** is a conversation where an AI asks you questions one at a time, follows up on what you say, pushes you to think deeper, and produces a clean transcript when you're done. It's a brain dump with a guide.
 
-## What It Does
+## Why AI Calls?
+
+We already talk to AI all the time — but chatting is passive. You type, it responds, you type again. An AI call flips that. The AI drives the conversation. It asks the questions. It follows up. It keeps you focused.
+
+This matters because **not everyone thinks by writing.** Some people need to be asked. They need structure, they need prompts, they need someone (or something) pulling ideas out of them. AI has gotten good enough to do this — it asks great questions, picks up on what you said, and surfaces things you wouldn't have thought of on your own.
+
+But personal brainstorming is just the beginning.
+
+### Send an AI call to someone else
+
+Imagine you want to ask a colleague a set of questions. Instead of scheduling a meeting, you craft an AI call — a set of topics and questions — and send it to them. They open it on their own time, run it with their preferred AI tool (voice or text), and send you back the transcript.
+
+You've just had an async, structured conversation without both of you needing to be online at the same time.
+
+### Put it on their calendar
+
+Take it further: schedule the AI call as a calendar event. "Tuesday 3pm — answer these questions about the Q2 roadmap." The person shows up, talks to the AI for 15 minutes, and you get a clean report.
+
+### Let the AI schedule it
+
+Now imagine an AI agent is building something for you — say, a website. It hits a point where it needs answers only a human can give. If it has access to your calendar, it books time: "I need 10 minutes of your focused input on these questions." The AI becomes proactive about getting human input, instead of just blocking and waiting.
+
+This is the key insight: **an AI call is tool execution where we prompt a human.** It inverts the usual model. Instead of humans prompting AI, the AI prompts the human — in a structured, time-bounded, respectful way.
+
+### Transcripts as building blocks
+
+The output of an AI call is a markdown transcript. That transcript becomes context for the next step. Send AI calls to five team members, collect the transcripts, and ask an AI to synthesize the common themes. Turn them into documentation, summaries, reports. The transcript is a portable artifact that flows naturally into any AI workflow.
+
+### Open by design
+
+AI Call is an idea, not a product. Anyone can implement it for any AI tool — it's just a structured prompt. Your data stays on your machine. There will be an explosion of AI call software. This repo is one early, open-source implementation.
+
+---
+
+## This Implementation
 
 1. You provide a **prompt** — a topic, questions, or a job description
 2. The AI asks questions **one at a time**, waiting for your response
@@ -12,6 +46,8 @@ Works with any agent that supports the [Agent Skills standard](https://agentskil
 4. When done, it generates a clean markdown transcript with all Q&A pairs
 
 **No API keys needed** — uses whatever model your agent is already running.
+
+Works with any agent that supports the [Agent Skills standard](https://agentskills.io): **pi**, **Claude Code**, **OpenAI Codex**, and others.
 
 ## Install
 
