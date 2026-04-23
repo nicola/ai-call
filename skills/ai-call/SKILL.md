@@ -60,13 +60,13 @@ When the call is complete:
 
 ## Transcript Format
 
-Save the transcript to a file called `ai-call-results-YYYY-MM-DD-HH-MM.md` (using the current timestamp).
+Save the transcript to a file called `YYYY-MM-DD - [Topic/Title].md` (using the current date and a short descriptive title derived from the prompt). For example: `2026-04-23 - Distributed Systems Experience.md`
 
 The transcript format:
 
 ```markdown
 # AI Call — [Topic/Title]
-**Date:** [date]
+**Date:** [YYYY-MM-DD]
 
 ---
 
