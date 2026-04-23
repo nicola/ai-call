@@ -1,6 +1,6 @@
 # AI Call
 
-> Part of the [AI-First Organization](https://github.com/nicola/ai-first-org) project.
+> Part of the [AI-First Organization](https://github.com/nicola/ai-first-org) tools.
 
 People have calls with each other to brainstorm, to interview, to get information. Now imagine having that same call — but with an AI.
 
