@@ -38,6 +38,12 @@ AI Call is an idea, not a product. Anyone can implement it for any AI tool — i
 
 ---
 
+## How to Use
+
+<p align="center">
+  <img src="assets/demo.png" alt="AI Call demo — User 1 creates a call, User 2 runs it" width="600">
+</p>
+
 ## This Implementation
 
 1. You provide a **prompt** — a topic, questions, or a job description
