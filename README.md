@@ -8,11 +8,7 @@ An **AI call** is a conversation where an AI asks you questions one at a time, f
 
 ## Why AI Calls?
 
-We already talk to AI all the time — but chatting is passive. You type, it responds, you type again. An AI call flips that. The AI drives the conversation. It asks the questions. It follows up. It keeps you focused.
-
-This matters because **not everyone thinks by writing.** Some people need to be asked. They need structure, they need prompts, they need someone (or something) pulling ideas out of them. AI has gotten good enough to do this — it asks great questions, picks up on what you said, and surfaces things you wouldn't have thought of on your own.
-
-But personal brainstorming is just the beginning.
+We already talk to AI all the time — but chatting is passive. You type, it responds, you type again. An AI call flips that. The AI drives the conversation. It asks the questions. It follows up. It keeps you focused. AI has gotten good enough to do this — it asks great questions, picks up on what you said, and surfaces things you wouldn't have thought of on your own.
 
 ### Send an AI call to someone else
 
@@ -127,3 +123,7 @@ The agent will ask questions one at a time, follow up naturally, and save a tran
 This is a pure-prompt skill — no scripts, no dependencies, no API keys. The `SKILL.md` file contains instructions that tell the agent how to behave as an interviewer. Your agent loads these instructions when it detects a matching request.
 
 The transcript is saved locally as a markdown file. Your data never leaves your machine (beyond whatever your agent's model provider already sees).
+
+---
+
+(written by Claude)
