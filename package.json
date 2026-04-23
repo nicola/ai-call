@@ -1,6 +1,6 @@
 {
   "name": "ai-call",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AI-driven structured interview skill for coding agents. The agent asks questions one by one, follows up naturally, and produces a clean markdown transcript.",
   "keywords": [
     "pi-package",
