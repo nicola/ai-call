@@ -1,5 +1,7 @@
 # AI Call
 
+> Part of the [AI-First Organization](https://github.com/nicola/ai-first-org) project.
+
 People have calls with each other to brainstorm, to interview, to get information. Now imagine having that same call — but with an AI.
 
 An **AI call** is a conversation where an AI asks you questions one at a time, follows up on what you say, pushes you to think deeper, and produces a clean transcript when you're done. It's a brain dump with a guide.
