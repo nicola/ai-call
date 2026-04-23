@@ -1,0 +1,21 @@
+{
+  "name": "ai-call",
+  "version": "0.1.0",
+  "description": "AI-driven structured interview skill for coding agents. The agent asks questions one by one, follows up naturally, and produces a clean markdown transcript.",
+  "keywords": [
+    "pi-package",
+    "agent-skill",
+    "ai-call",
+    "interview"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicola/ai-call.git"
+  },
+  "pi": {
+    "skills": [
+      "./"
+    ]
+  }
+}
